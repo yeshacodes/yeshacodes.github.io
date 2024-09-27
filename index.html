@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,17 +24,20 @@
       color: #333;
       line-height: 1.6;
     }
+
     header {
       background-color: #4CAF50;
       color: white;
       padding: 20px 0;
       text-align: center;
     }
+
     header img {
       border-radius: 50%;
       width: 120px;
       height: 120px;
     }
+
     section {
       max-width: 800px;
       margin: 20px auto;
@@ -42,39 +46,51 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
     h1, h2 {
       color: #333;
     }
+
     ul {
       list-style-type: none;
       padding: 0;
     }
+
     ul li {
       margin: 10px 0;
     }
+
     a {
       color: #4CAF50;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
+    .skills-badges img {
+      margin: 5px;
+    }
+
     /* Responsive Design */
     @media (max-width: 768px) {
       body {
         padding: 10px;
       }
+
       header img {
         width: 80px;
         height: 80px;
       }
+
       section {
         padding: 10px;
       }
     }
   </style>
-
 </head>
+
 <body>
   <header>
     <img src="path_to_your_image.jpg" alt="Yesha Bhavsar">
@@ -84,7 +100,7 @@
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I am Yesha Bhavsar, a junior Computer Science student. I am passionate about technology, data analysis, and building impactful software solutions. Currently, I am seeking internship opportunities for Summer 2025.</p>
+    <p>Hello! I am Yesha Bhavsar, a junior Computer Science student at Kennesaw State University with a 3.6 GPA. I am passionate about technology, data analysis, and building impactful software solutions. Currently, I am seeking internship opportunities for Summer 2025.</p>
   </section>
 
   <section>
@@ -96,28 +112,38 @@
 
   <section>
     <h2>Skills</h2>
-    <ul>
-      <li>Programming Languages: Java, Python, C</li>
-      <li>Tools: IntelliJ, Git, Tkinter</li>
-      <li>Data Structures & Algorithms</li>
-      <li>Web Development (HTML, CSS, JavaScript)</li>
-    </ul>
+    <div class="skills-badges">
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white" alt="Linux">
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    </div>
   </section>
 
   <section>
     <h2>Projects</h2>
     <ul>
-      <li><strong>Weather App</strong> - Developed a weather forecasting app using Python and Tkinter. <a href="https://github.com/yeshacodes/weather-app">GitHub Repo</a></li>
-      <li><strong>Palindrome Tester</strong> - Created a Java program to test palindromes. <a href="https://github.com/yeshacodes/palindrome-tester">GitHub Repo</a></li>
+      <li><strong>Weather App</strong> - Developed a weather forecasting app using Python and Tkinter.
+        <a href="https://github.com/yeshacodes/weather-app">GitHub Repo</a>
+        <br><img src="path_to_screenshot.jpg" alt="Weather App Screenshot" width="200px">
+      </li>
+      <li><strong>Palindrome Tester</strong> - Created a Java program to test palindromes.
+        <a href="https://github.com/yeshacodes/palindrome-tester">GitHub Repo</a>
+      </li>
     </ul>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p><i class="fas fa-envelope"></i> Email: yesha.bhavsar@example.com</p>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:ybhavsa2@students.kennesaw.edu">ybhavsa2@students.kennesaw.edu</a></p>
     <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/yeshacodes">github.com/yeshacodes</a></p>
     <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/yeshabhavsar">linkedin.com/in/yeshabhavsar</a></p>
+    <p><i class="fas fa-file-alt"></i> <a href="link_to_resume.pdf">Download My Resume</a></p>
   </section>
 
 </body>
+
 </html>
